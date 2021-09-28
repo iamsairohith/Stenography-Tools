@@ -1,3 +1,4 @@
+[![Contributor Covenant](https://img.shields.io/badge/Contributor%20Covenant-2.1-4baaaa.svg)](code_of_conduct.md)
 # Stenography Tools
 
 Set of python tools, to help extract and conceal information from images
