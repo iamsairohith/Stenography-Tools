@@ -73,6 +73,12 @@ def encrypt_data_into_image():
 
 # Step 1
 # Defined the TKinter object app with background lavender, title Encrypt, and app size 600*600 pixels.
+def test():
+    askopenfilename()
+    on_click()
+    encrypt_data_into_image()
+    return True
+
 app = Tk()
 app.configure(background='lavender')
 app.title("Encrypt")
