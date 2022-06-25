@@ -4,11 +4,14 @@ from tkinter import filedialog
 import cv2
 import numpy as np
 import math
+import random
 
 global path_image
 
 image_display_size = 300, 300
+words = ['tree','sun','ball','moon','earth','grass','world'] 
 
+word = random.choice(words)
 def on_click():
     # Step 1.5
     global path_image
