@@ -68,7 +68,7 @@ def encrypt_data_into_image():
     cv2.imwrite("encrypted_image.png", img)
     # Display the success label.
     success_label = Label(app, text="Encryption Successful!",
-                bg='lavender', font=("Times New Roman", 20))
+                bg='lavender', font=("Cascadia Code", 20))
     success_label.place(x=160, y=300)
 
 # Step 1
